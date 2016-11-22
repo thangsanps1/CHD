@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.douglas.chd.ActivityContent">
+
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tabHost"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:layout_marginBottom="1dp"></TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <FrameLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/scrollView">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tvChiTiet"
+                                android:layout_margin="5dp"
+                                android:textSize="16dp"
+                                android:textColor="#353535"/>
+
+                            <com.douglas.chd.SquareImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginRight="50dp"
+                                android:id="@+id/imgCung"
+                                android:layout_below="@+id/tvChiTiet" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/imgCung"
+                                android:id="@+id/tvtt"
+                                android:layout_margin="5dp"
+                                android:textSize="18dp"
+                                android:textColor="#000000"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/tvtt"
+                                android:id="@+id/tvYnghia"
+                                android:layout_margin="5dp"
+                                android:textSize="16dp"
+                                android:textColor="#353535"/>
+                        </RelativeLayout>
+                    </ScrollView>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@color/colorPrimary">
+                        <TextView
+                            android:id="@+id/tvThangSinh"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Tháng sinh:"
+                            android:textSize="12dp"
+                            android:textColor="@color/white"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center_vertical"/>
+
+                        <Spinner
+                            android:id="@+id/spnThang"
+                            android:layout_width="83dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="17dp"
+                            android:textColor="@color/white">
+
+                        </Spinner>
+
+                        <TextView
+                            android:id="@+id/tvNgaySinh"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Ngày sinh:"
+                            android:textSize="12dp"
+                            android:textColor="@color/white"
+                            android:gravity="center_vertical"/>
+
+                        <Spinner
+                            android:id="@+id/spnNgay"
+                            android:layout_width="83dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="17dp"
+                            android:textColor="@color/white">
+
+                        </Spinner>
+
+                        <Button
+                            android:id="@+id/btnXem"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/xemfocus"
+                            android:text="Xem"
+                            android:textSize="17dp"
+                            android:textColor="@color/white"
+                            style="?android:attr/borderlessButtonStyle"/>
+
+                    </LinearLayout>
+                </FrameLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</RelativeLayout>

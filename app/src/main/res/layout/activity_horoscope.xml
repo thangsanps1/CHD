@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_horoscope"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.douglas.chd.Horoscope"
+    android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary">
+
+                <TextView
+                    android:id="@+id/showDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ngày Tháng"
+                    android:textSize="23dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white"/>
+
+                <Spinner
+                    android:id="@+id/spnZodiac"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="23dp"
+                    android:textColor="@color/white"
+                    >
+
+                </Spinner>
+                <Button
+                    android:id="@+id/btnOke"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/xemfocus"
+                    android:text="Xem"
+                    android:textSize="17dp"
+                    android:textColor="@color/white"
+                    android:layout_gravity="right"
+                    style="?android:attr/borderlessButtonStyle"/>
+
+            </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtNotification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:text="Tử vi hàng ngày"/>
+            <TextView
+                android:id="@+id/txtNotification2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chọn ngày tháng và cung của bạn để xem tử vi"
+                android:textColor="#000"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/zodiacwall"/>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimary">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMain"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:padding="1dp">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        >
+
+        <com.douglas.chd.SquareImageView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/imageButton"
+            android:onClick="xuNu"
+            android:background="@drawable/xunufocus"
+            android:layout_margin="1dp" />
+
+        <com.douglas.chd.SquareImageView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/imageButton5"
+            android:onClick="maKet"
+            android:background="@drawable/maketfocus"
+            android:layout_margin="1dp"/>
+
+        <com.douglas.chd.SquareImageView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/imageButton6"
+            android:onClick="kimNguu"
+            android:background="@drawable/kimnguufocus"
+            android:layout_margin="1dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+
+        <com.douglas.chd.SquareImageView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/imageButton7"
+            android:onClick="songTu"
+            android:background="@drawable/songtufocus"
+            android:layout_margin="1dp"/>
+
+        <com.douglas.chd.SquareImageView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/imageButton8"
+            android:onClick="thienBinh"
+            android:background="@drawable/thienbinhfocus"
+            android:layout_margin="1dp"/>
+
+        <com.douglas.chd.SquareImageView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/imageButton9"
+            android:onClick="baoBinh"
+            android:background="@drawable/baobinhfocus"
+            android:layout_margin="1dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+
+        <com.douglas.chd.SquareImageView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/imageButton11"
+            android:onClick="suTu"
+            android:background="@drawable/sutufocus"
+            android:layout_margin="1dp"/>
+
+        <com.douglas.chd.SquareImageView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/imageButton12"
+            android:onClick="bachDuong"
+            android:background="@drawable/bachduongfocus"
+            android:layout_margin="1dp"/>
+
+        <com.douglas.chd.SquareImageView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/imageButton13"
+            android:onClick="nhanMa"
+            android:background="@drawable/nhanmafocus"
+            android:layout_margin="1dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+
+        <com.douglas.chd.SquareImageView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/imageButton21"
+            android:onClick="thienYet"
+            android:background="@drawable/thienyetfocus"
+            android:layout_margin="1dp"/>
+
+        <com.douglas.chd.SquareImageView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/imageButton22"
+            android:onClick="songNgu"
+            android:background="@drawable/songngufocus"
+            android:layout_margin="1dp"/>
+
+        <com.douglas.chd.SquareImageView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/imageButton23"
+            android:onClick="cuGiai"
+            android:background="@drawable/cugiaifocus"
+            android:layout_margin="1dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

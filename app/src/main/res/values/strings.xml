@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Cung Hoàng Đạo</string>
+    <string name="about">about</string>
+    <string name="about1">12 Cung Hoàng Đạo là gì? – Ngày sinh của 12 cung hoàng đạo</string>
+    <string name="about2">Theo các nhà thiên văn học thời cổ đại, trong khoảng thời gian chừng 30 – 31 ngày, Mặt Trời sẽ đi qua một trong mười hai chòm sao đặc biệt. Ai sinh ra trong thời gian Mặt Trời đi qua chòm sao nào thì họ sẽ được chòm sao đó chiếu mệnh và tính cách của họ cũng bị chòm sao ảnh hưởng nhiều. 12 chòm sao tạo thành 12 cung trong vòng tròn Hoàng đạo, có nghĩa “Đường đi của mặt trời“. Theo phương Tây, vòng tròn này tên là Horoscope. Tiếng Hy Lạp là Zodiakus Kyklos (ζωδιακός κύκλος) – “Vòng tròn của các linh vật.”</string>
+    <string name="about3">Điểm khởi đầu theo lý thuyết của cung Bạch Dương là xuân phân. Các cung khác cứ thế nối tiếp. Ngày giờ chính xác theo lịch Gregory thường khác biệt chút ít từ năm này sang năm khác, bởi lẽ lịch Gregory thay đổi tương ứng với năm chí tuyến, trong khi độ dài năm chí tuyến có bản chất thay đổi đều đều. Trong quá khứ gần đây và tương lai không xa thì các sai khác này chỉ vào khoảng dưới hai ngày. Từ năm 1797 đến năm 2043, ngày xuân phân (theo giờ UT – Universal Time) luôn rơi vào ngày 20 hoặc 21 tháng 3. Ngày xuân phân từng rơi vào ngày 19 tháng 3, gần đây nhất vào năm 1796 và lần tới là năm 2044.</string>
+    <string name="about4">Người ta sử dụng 12 Cung Hoàng Đạo làm gì?</string>
+    <string name="about5">Sự phân chia vòng tròn hoàng đạo ra làm 12 cánh, mỗi cánh một kí tự được hình thành bởi các nhà thiên văn Babylon cổ đại vào thiên niên kỷ 1 TCN. Mỗi cánh có độ quay 30o tương ứng với một tháng trong lịch Babylon cổ. Các nhà thiên văn Babylon cũng đặt cho mỗi cung hoàng đạo một ký tự. Trong đó, cánh đầu tiên có tên là Bạch Dương (Aries), ký tự là một con cừu núi. Dần dần sau này, Hoàng Đạo đã có ảnh hưởng lớn hơn vào thời Hy Lạp và La Mã cổ đại. Việc sử dụng Hoàng Đạo để tiên đoán về tính cách, sự nghiệp,… vào thời kì này trở nên khá phổ biến. Nó có ảnh hưởng tới tận vào thời Trung Cổ sau này.</string>
+    <string name="about6">Sao chiếu mệnh tương ứng với 12 cung Hoàng Đạo</string>
+    <string name="about7">12 cung tương ứng với 12 ngôi sao và hành tinh, bao gồm cả Diêm Vương Tinh đã bị loại khỏi danh sách các hành tinh của hệ Mặt Trời:</string>
+    <string name="about8">1. Cung Bạch Dương được Hỏa Tinh bảo hộ, tượng trưng cho thần chiến tranh Mars trong thần thoại La Mã (Ares của thần thoại Hi Lạp).</string>
+    <string name="about9">2. Cung Kim Ngưu được Kim Tinh bảo hộ, tượng trưng cho nữ thần Venus (Aphrodite của thần thoại Hi Lạp.)</string>
+    <string name="about10">3. Cung Song Tử được Thủy Tinh bảo hộ, tượng trưng cho thần đưa tin Mercury (Hermes).</string>
+    <string name="about11">4. Cung Cự Giải được Mặt Trăng bảo hộ, tượng trưng cho nữ thần hôn nhân gia đình Junon (Hera trong thần thoại Hi Lạp)</string>
+    <string name="about12">5. Cung Sư Tử được Mặt Trời bảo hộ, tượng trưng cho thần mặt trời Helios, sự trung trực, uy quyền và sức mạnh.</string>
+    <string name="about13">6. Cung Xử Nữ được Thủy Tinh bảo hộ, tượng trưng cho trí tuệ, lòng chung thủy nhưng quá cầu toàn nguyên tắc.</string>
+    <string name="about14">7. Cung Thiên Bình được Kim Tinh bảo hộ, cung này biểu tượng cho sắc đẹp, sự quyến rũ, công bằng. Tượng trưng cho nữ thần Venus.</string>
+    <string name="about15">8. Cung Hổ Cáp Diêm Vương Tinh bảo hộ, tượng trưng cho Pluto (Hades), thần cai quan âm phủ.</string>
+    <string name="about16">9. Cung Nhân Mã được Mộc Tinh bảo hộ, tượng trưng cho thần sấm sét Jupiter (Zeus).</string>
+    <string name="about17">10. Cung Ma Kết được Thổ Tinh bảo hộ, tượng trưng cho thần thời gian Saturn (Cronos).</string>
+    <string name="about18">11. Cung Bảo Bình được Thiên Vương Tinh bảo hộ, tượng trưng cho thần bầu trời Uranus.</string>
+    <string name="about19">12. Cung Song Ngư được Hải Vương Tinh bảo hộ, tượng trưng cho thần biển Neptune (Poseidon).</string>
+</resources>
